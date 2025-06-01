@@ -74,3 +74,4 @@ jobs:
           --service react-ecs-task-service \
           --task-definition $NEW_TASK_DEF_ARN \
           --force-new-deployment    
+          
