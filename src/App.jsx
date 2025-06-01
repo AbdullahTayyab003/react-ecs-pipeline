@@ -22,7 +22,7 @@ function App() {
       backgroundColor: '#f2f2f2'
     }}>
       <div style={{ textAlign: 'center' }}>
-        <h1 style={{ marginBottom: '20px' }}>My React CI/CD Demo</h1>
+        <h1 style={{ marginBottom: '20px' }}>🚀 New Deploy via GitHub Actions!</h1>
         <p style={{ fontSize: '18px', color: '#555' }}>{message}</p>
         <button
           onClick={handleClick}
