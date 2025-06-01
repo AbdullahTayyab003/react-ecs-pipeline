@@ -1,5 +1,4 @@
-// src/App.jsx
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react'; // Add useEffect here
 
 function App() {
   const [message, setMessage] = useState('Welcome to my CI/CD Demo App!');
@@ -7,6 +6,11 @@ function App() {
   const handleClick = () => {
     setMessage('You clicked the button! 🎉');
   };
+
+  // ✅ Log when the app is rendered (i.e., after deploy)
+  useEffect(() => {
+    console.log("deployed");
+  }, []);
 
   return (
     <div style={{
